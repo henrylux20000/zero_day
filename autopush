@@ -5,7 +5,7 @@ git add $filename
 echo "What is your commit message m: "
 read m
 git commit -m"$m"
-echo " what is your Github origin '
-read origin
-git push origin $origin
+echo " what is your Github origin "
+read branch
+git push origin $branch
 
