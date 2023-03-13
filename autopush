@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Type the name of the files or . if the files is more than 2"
+read filename
+git add $filename
+echo "What is your commit message m: "
+read m
+git commit -m"$m"
+echo " what is your Github origin '
+read origin
+git push origin $origin
+
